@@ -1,0 +1,37 @@
+! name: young earth sites
+! description: Some YEC and apologetics stuff
+! public: true
+! author: Mel
+! avatar: #000000
+
+! Remove results not matching any other rule
+! $discard
+
+! Generic boosting
+! *rust*$boost=1,site=rs
+! *rust*$boost,site=github.com
+! *rust*$boost,site=stackoverflow.com
+
+! Boost some results
+$boost=3,site=answersingenesis.org
+$boost=3,site=creation.org
+$boost=3,site=bible.org
+$boost=3,site=icr.org
+$boost=3,site=gotquestions.org
+$boost=3,site=biologos.org
+$boost=3,site=answers.tv
+$boost=3,site=kidsanswers.org
+$boost=3,site=reasonablefaith.org
+$boost=3,site=ariel.org
+$boost=3,site=intelligentdesign.org
+$boost=3,site=carm.org
+$boost=3,site=biblecentre.org
+$boost=3,site=ibn.net
+$boost=3,site=independentbaptist.com
+$boost=3,site=patternsoftruth.org
+$boost=3,site=crossway.org
+
+
+! Exclusion rules
+$discard,site=jw.org
+
